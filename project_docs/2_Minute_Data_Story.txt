@@ -1,0 +1,13 @@
+Good morning. We are Group 1 and our assigned domain is Road Accident and Traffic Safety Analytics.
+
+We used the FiveThirtyEight bad-drivers dataset. It has 51 state-level records and 8 original attributes, including fatal-collision rate, speeding percentage, alcohol-impaired percentage, driver history and insurance values. There are no missing values or duplicate rows.
+
+Our first finding was that North Dakota and South Carolina have the highest fatal-collision rate in the dataset at 23.9 drivers per billion miles, while the District of Columbia has the lowest value at 5.9.
+
+We also checked whether common driver-related factors move with the total fatal-collision rate. Alcohol-impaired percentage shows only a weak positive relationship, with a correlation of about 0.19. Speeding percentage has almost no linear correlation with the total rate in this dataset. So we should not conclude that one single factor explains the total collision rate.
+
+Our Streamlit dashboard lets the user filter regions, select a collision-rate range and search for a state. We used a map, bar chart, scatter plot, box plot and correlation heatmap because each answers a different question clearly.
+
+Our main recommendation is to first study the states with high fatal-collision rates in more detail, but combine this dataset with road type, weather, seat-belt use, time and vehicle data before taking a final decision.
+
+This project helped us understand that correct visualization is important because a wrong chart can change how the same data is interpreted. Thank you.

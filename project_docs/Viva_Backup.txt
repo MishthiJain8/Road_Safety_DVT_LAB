@@ -1,0 +1,42 @@
+QUICK VIVA BACKUP – GROUP 1
+
+1. Why did you choose this dataset?
+It is a real-world road safety dataset with state-wise collision rates, driver behaviour percentages and insurance variables. It supports geographical and numerical analysis.
+
+2. How many records and attributes?
+51 records and 8 original attributes.
+
+3. Missing values or duplicates?
+No. Missing values = 0 and duplicate rows = 0.
+
+4. Is there a time variable?
+No. This is a cross-sectional state-level dataset. State is the geographical variable.
+
+5. Which visualization answers which question?
+Q1 geographical pattern → choropleth map.
+Q2 top states → sorted horizontal bar chart.
+Q3 alcohol vs total rate → scatter plot with trend line.
+Q4 regional spread → box plot.
+Q5 relationships between numerical variables → correlation heatmap.
+
+6. Why not use a pie chart for state collision rates?
+Because these rates are not parts of one total. Pie slices would suggest a whole that does not actually exist and make comparison difficult.
+
+7. Main finding?
+North Dakota and South Carolina have the highest fatal-collision rate in the dataset at 23.9. District of Columbia has the lowest at 5.9.
+
+8. Does alcohol cause more fatal collisions according to your dashboard?
+We cannot say that. In this dataset, alcohol-impaired percentage has only a weak positive correlation with total fatal-collision rate, about 0.19. Correlation does not prove causation.
+
+9. What did AI suggest?
+Add a trend line and hover labels to the scatter plot and avoid causal wording. We partially accepted it.
+
+10. Why Streamlit?
+It is simple for Python projects, supports interactive controls and works well with Plotly charts.
+
+11. What happens when a filter is changed?
+The dashboard creates a filtered dataframe and all KPI values and charts are generated from that filtered data.
+
+12. Data source?
+FiveThirtyEight bad-drivers dataset:
+https://github.com/fivethirtyeight/data/tree/master/bad-drivers

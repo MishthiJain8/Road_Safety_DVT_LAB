@@ -1,0 +1,11 @@
+PRESENTATION CHECKLIST
+
+1. Open the 3-slide PPT.
+2. Keep the live Streamlit dashboard open in a browser tab.
+3. Keep bad-drivers.csv and the FiveThirtyEight source link available as backup.
+4. During the dashboard demo, change Region once and move the fatal-collision-rate slider once so the teacher can see it is interactive.
+5. If asked about the source, open the Dataset source and raw data section inside the dashboard.
+6. If college Wi-Fi fails, run locally using:
+   pip install -r requirements.txt
+   streamlit run streamlit_app.py
+7. Keep the DOCX ready for submission and the Viva_Backup.txt on the laptop/phone.
